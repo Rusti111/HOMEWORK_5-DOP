@@ -1,0 +1,73 @@
+.clicker-app {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result {
+  font-size: 18px;
+  color: #007bff;
+}
+
+h1 {
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.timer {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.timer-warning {
+  color: red;
+}
+
+p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.click-button,
+.reset-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.click-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.reset-button {
+  background-color: #dc3545;
+}
+
+.lok{
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
